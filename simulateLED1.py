@@ -1,4 +1,4 @@
-#LED display digitls
+#LED display digitls written by Fulian Qiu
 print('This program is for mimic digital LED display')
 num = input("Enter a number for LED display:")
 
