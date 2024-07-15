@@ -1,24 +1,35 @@
 # Python Simulated Digital Display written By Fulian Qiu
-/*
+
 print('This program is for mimic digital LED display')
+
 num = input("Enter a number for LED display:")
 
 #Define functions for digit segments
 #Three
+
 def th_3():
     print(' ###',end='')
+    
 #left two
+
 def lt_2():
     print(' ##',end='')
+    
 #left-right
+
 def lr_2():
     print(' # #',end='')
-#left one 
+    
+#left one
+
 def lt_1():
     print(' #  ',end='')
+    
 #right one
+
 def rt_1():
     print('   #',end='')
+    
 #End of function defination
 
 #Every digit composed of five lines or
@@ -154,5 +165,3 @@ for x in range(5):
                 th_3()
 
 #End of digit display
-*/
-
