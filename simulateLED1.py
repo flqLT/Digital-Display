@@ -1,28 +1,39 @@
 #LED display digitls written by Fulian Qiu
 
 print('This program is for mimic digital LED display')
+
 num = input("Enter a number for LED display:")
 
 #Define functions for digit segments
+
 #Three
+
 def th_3():
     print(' ###',end='')
+    
 #left two
+
 def lt_2():
     print(' ##',end='')
+    
 #left-right
+
 def lr_2():
     print(' # #',end='')
+    
 #left one 
+
 def lt_1():
     print(' #  ',end='')
+    
 #right one
+
 def rt_1():
     print('   #',end='')
+    
 #End of function defination
     
-#Every digit composed of five lines or
-#layers from top to bottom
+#Every digit composed of five lines/layers from top to bottom
     
 for x in range(5):
     print()     
