@@ -1,7 +1,7 @@
 # Python Simulated Digital Display
 This new repsitory uses a python program to simulate LED display
 #LED display digitls written By Fulian Qiu
-
+'''
 print('This program is for mimic digital LED display')
 num = input("Enter a number for LED display:")
 
@@ -22,7 +22,7 @@ def lt_1():
 def rt_1():
     print('   #',end='')
 #End of function defination
-    
+
 #Every digit composed of five lines or
 #layers from top to bottom
     
@@ -156,3 +156,4 @@ for x in range(5):
                 th_3()
 
 #End of digit display
+'''
