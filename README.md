@@ -1,6 +1,3 @@
-# Python Simulated Digital Display written By Fulian Qiu
-//*
-
 print('This program is for mimic digital LED display')
 
 num = input("Enter a number for LED display:")
@@ -166,5 +163,3 @@ for x in range(5):
                 th_3()
 
 #End of digit display
-
-*//
