@@ -1,4 +1,4 @@
-// Python Simulated Digital Display written By Fulian Qiu
+# Python Simulated Digital Display written By Fulian Qiu
 //*
 print('This program is for mimic digital LED display')
 
