@@ -30,6 +30,9 @@ def lt_1():
 
 def rt_1():
     print('   #',end='')
+
+def one_1():
+    print(' #',end='')
     
 #End of function defination
     
@@ -44,7 +47,7 @@ for x in range(5):
         #display first line(row)
 
             if i == "1":
-                rt_1()
+                one_1()
             if i == "2":
                 th_3()
             if i == "3":
@@ -69,7 +72,7 @@ for x in range(5):
         #display second line(row)
             
             if i == "1":
-                rt_1()
+                 one_1()
             if i == "2":
                 rt_1()
             if i == "3":
@@ -94,7 +97,7 @@ for x in range(5):
         #display third line(row)
             
             if i == "1":
-                rt_1() 
+                one_1()
             if i == "2":
                 th_3()
             if i == "3":
@@ -119,7 +122,7 @@ for x in range(5):
         #if display fourth line(row)
             
             if i == "1":
-                rt_1() 
+                one_1() 
             if i == "2":
                 lt_1()
             if i == "3":
@@ -144,7 +147,7 @@ for x in range(5):
         #display five line(row)
             
             if i == "1":
-                rt_1() 
+                one_1() 
             if i == "2":
                 th_3()
             if i == "3":
