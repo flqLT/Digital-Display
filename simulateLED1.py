@@ -1,4 +1,3 @@
-
 #LED display digitls written by Fulian Qiu
 
 print('This program is for mimic digital LED display')
